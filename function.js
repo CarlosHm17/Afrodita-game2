@@ -22,6 +22,6 @@ botonT.addEventListener("click", resultadoTres);
 
 function resultadoTres() {
     botonU.classList.add("botonP");
-    botonD.classList.add("botonS");
-    botonT.classList.add("botonT");
+    botonD.classList.add("botonT");
+    botonT.classList.add("botonS");
 }
