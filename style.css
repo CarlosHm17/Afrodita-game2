@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: rgb(251, 175, 188);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+body {
+    background-color: rgb(254, 213, 220);
+}
+
+
+.containerBotones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 15px;
+    height: 80vh;
+    width: 80vw;
+}
+
+.boton {
+    border-radius: 100px;
+    font-size: 3em;
+    width: 4em;
+    height: 4em;
+    background-color: rgba(251, 137, 156, 0.565);
+    border: 2px solid black;
+}
+.botonP {
+    background-color: red;
+}
+.botonS {
+    background-color: green;
+}
+.botonT {
+    background-color: red;
+}
+
+
+
+
